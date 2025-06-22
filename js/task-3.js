@@ -1,5 +1,5 @@
 const inputEl = document.querySelector('#name-input');
-const outpetEl = document.querySelector('#name-output');
+const outputEl = document.querySelector('#name-output');
 
 inputEl.addEventListener('input', () => {
     const trimmedValue = inputEl.value.trim();
